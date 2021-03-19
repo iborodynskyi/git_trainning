@@ -1,0 +1,27 @@
+commit aba393a6223d41d5ea2cab4ca0ac0a5a79d4a93c
+Author: iborodynskyi <ivan.borodynskyi@plvision.eu>
+Date:   Fri Mar 19 15:16:28 2021 +0200
+
+    tracked_files, untracked_files added
+
+diff --git a/my_file b/my_file
+index d00491f..1191247 100644
+--- a/my_file
++++ b/my_file
+@@ -1 +1,2 @@
+ 1
++2
+diff --git a/tracked_files b/tracked_files
+new file mode 100644
+index 0000000..bd41540
+--- /dev/null
++++ b/tracked_files
+@@ -0,0 +1 @@
++my_file
+diff --git a/untracked_files b/untracked_files
+new file mode 100644
+index 0000000..43d6171
+--- /dev/null
++++ b/untracked_files
+@@ -0,0 +1 @@
++.gitignore text1.txt text2.txt tracked_files untracked_files
